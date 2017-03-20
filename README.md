@@ -5,7 +5,7 @@
 - TestCase5 in `src/main/java/org/labsse/HeapSort.java`
 
 
-##Appendix of LOC Metrics 
+## Appendix of LOC Metrics 
 
 - NUMBER_OF_LINES 方法的总行数
 - LOC_BLANK 空行数
