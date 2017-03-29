@@ -5,8 +5,14 @@
 - TestCase5 in `src/main/java/org/labsse/HeapSort.java`
 
 
-## Appendix of LOC Metrics 
+## Appendix of LOC Metrics
+##### 说明文档正在努力编写中，请见谅  
 
+##### 详尽维度说明会在 `2017.04.03` `00:00`前发布  
+
+##### 请先参考`doc`文件夹下目录提供的资料学习相关维度的定义    
+
+一下为39维度当中的部分维度定义:
 - NUMBER_OF_LINES 方法的总行数
 - LOC_BLANK 空行数
 - LOC_COMMENTS 纯注释的行数
@@ -23,7 +29,7 @@ e.g.
     public int subStrCount(String parentStr, String subStr){
         //count
         int count = 0;
-        //int 
+        //int
         int index = 0;
         while (true) {
             index = parentStr.indexOf(subStr, index + 1);
