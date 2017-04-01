@@ -150,7 +150,7 @@ HALSTEAD内容长度，等于HALSTEAD_VOLUME/ HALSTEAD_DIFFICULTY
 ### 关于定义的改进
 由于目前维度的定义和计算方式还存在不足，大家若在计算的过程中若遇到困难，或者对某些维度的定义、计算方式等有疑问，还请大家指出，** 我们共同讨论，共同完善 **
 
-## Appendix of LOC Metrics
+## Appendix of Metrics
 e.g.
 ```
 public class Main {
