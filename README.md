@@ -20,7 +20,7 @@
 `doc/与程序控制流程图有关维度的计算方法资料1-McCabe.pdf`
 ##### `Halstead`: 与代码操作符数量、操作数数量相关的维度   https://en.wikipedia.org/wiki/Halstead_complexity_measures
 分类介绍如下:
-##### `LOC`(7个)
+#### `LOC`(7个)
 - NUMBER_OF_LINES  
 方法的总行数
 
@@ -40,7 +40,7 @@
 
 - PERCENT_COMMENTS = (LOC_COMMENTS + LOC_CODE_AND_COMMENT) / (LOC_COMMENTS + LOC_CODE_AND_COMMENT + LOC_EXECUTABLE)
 
-##### `McCabe`(20个)
+#### `McCabe`(20个)
 - BRANCH_COUNT  
 程序流程图中的`分支边`的数量。`分支边`是指从决策点（do、if、while、for、switch语句节点）分出去的边
 
@@ -104,7 +104,7 @@
 - NORMALIZED_CYCLOMATIC_COMPLEXITY  
 规范化的圈复杂度，CYCLOMATIC_COMPLEXITY/ NUMBER_OF_LINES
 
-##### `Halstead`(12个)
+#### `Halstead`(12个)
 - HALSTEAD_VOLUME  
  ![](http://i2.muimg.com/567571/9492a705cc883bc0.png)  
 编码程序需要的最小比特  
