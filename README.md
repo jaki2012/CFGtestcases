@@ -17,8 +17,11 @@
 `LOC`、`McCabe`和`Halstead`
 ##### `LOC`: (line of code) 与代码行数相关的维度
 ##### `McCabe`: 与程序控制流程图相关的维度
-`doc/与程序控制流程图有关维度的计算方法资料1-McCabe.pdf`
-##### `Halstead`: 与代码操作符数量、操作数数量相关的维度   https://en.wikipedia.org/wiki/Halstead_complexity_measures
+##### `Halstead`: 与代码操作符数量、操作数数量相关的维度  
+
+
+
+
 分类介绍如下:
 #### `LOC`(7个)
 - NUMBER_OF_LINES  
@@ -148,7 +151,7 @@ HALSTEAD内容长度，等于HALSTEAD_VOLUME/ HALSTEAD_DIFFICULTY
 程序实现耗时
 
 ### 关于定义的改进
-由于目前维度的定义和计算方式还存在不足，大家若在计算的过程中若遇到困难，或者对某些维度的定义、计算方式等有疑问，还请大家指出，** 我们共同讨论，共同完善 **
+由于目前维度的定义和计算方式还存在不足，大家若在计算的过程中若遇到困难，或者对某些维度的定义、计算方式等有疑问，还请大家指出，共同讨论，共同完善
 
 ## Appendix of Metrics
 e.g.
